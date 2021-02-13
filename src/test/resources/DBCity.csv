@@ -1,0 +1,320 @@
+Tehran,Tashkent
+Sanaa,Phnom Penh
+Naypyidaw,Muscat
+Manila,Male
+Lhasa,Kuwait City
+Kathmandu,Kabul
+Islamabad,Dushanbe
+Doha,Dhaka
+Colombo,Bishkek
+Beirut,Bandar Seri Begawan
+Baghdad,Astana
+Ashgabat,Amman
+Manama,Tbilisi
+Baku,Yerevan
+Honolulu,San Francisco
+Orlando,Las Vegas
+Los Angeles,Miami
+New York,Johannesburg
+Dammam,Riyadh
+Lima,Cancun
+Chiba,Fukuoka
+Kyoto,Osaka
+Jerusalem,Batam
+Kolkatta,Jaipur
+Chennai,Hurgada
+Beijing,Zhuhai
+Guilin,Vancouver
+Rio de Janeiro,Toronto
+Bangalore,Buenos Aires
+Jeju,Krabi
+Auckland,Abu Dhabi
+Sydney,Cebu
+Marrakech,Melbourne
+Jakarta,Penang Island
+Cairo,Ha Noi
+Denpasar,Johor Bahru
+Shanghai,Ho Chi Minh
+Medina,Seoul
+Mecca,Guangzhou
+Pattaya,Taipei
+Phuket,Tokyo
+Shenzhen,Mumbai
+Kuala Lumpur,Delhi
+Singapore,Dubai
+Bangkok,Macau
+Antwerp,Hong Kong
+Augsburg,Aberdeen
+Athens,Alexandroupolis
+Almeria,Alicante
+Aarhus,Aalborg
+Aosta,Ancona
+Alanya,Amsterdam
+Antalya,Ankara
+Brussels,Altenrhein
+Banja Luka,Burgas
+Birmingham,Belfast
+Bristol,Bournemouth
+Berlin,Budapest
+Billund,Bremen
+Bilbao,Barcelona
+Bergen,Bologna
+Bydgoszcz,Bodo
+Belgrade,Bucharest
+Bordeaux,Bratislava
+Basel,Brno
+Cardiff,Bern
+Coventry,Cambridge
+Corfu,Cologne
+Cordoba,Clermont-Ferrand
+Dresden,Cherbourg
+Duesseldorf,Doncaster
+Dublin,Dortmund
+Dalaman,Cork
+Dubrovnik,Cagliari
+East Midlands,Cluj-Napoca
+Edinburgh,Durham
+Erfurt,Catania
+Esbjerg,Exeter
+Eilat,Copenhagen
+Fuerteventura,Chambery-Savoie
+Faro,Frankfurt
+Gorna Oryahovitsa,Eindhoven
+Gloucestershire,Florence
+Girona,Friedrichshafen
+Genoa,Granada
+Gdansk,Funchal
+Geneva,Groningen
+Gothenburg,Glasgow
+Heviz,Floro
+Hamburg,Galway
+Heringsdorf,Guernsey
+Heraklion,Humberside
+Helsinki,Graz
+Innsbruck,Plauen
+Debrecen,Hannover
+Kortrijk,Inverness
+Kaunas,Klagenfurt
+Katowice,Karlsruhe
+Krakow,Istanbul
+Karlstad,Ibiza
+Liege,Izmir
+Liverpool,Jonkoping
+Leeds,Kuressaare
+London,Land's End
+Luebeck,Kosice
+Lanzarote,Karlovy Vary
+Las Palmas de Gran Canaria,Linz
+Larnaca,Lydd
+Le Touquet,Liepaja
+Lulea,Lamezia Terme
+Manchester,Lleida-Alguaire
+Memmingen,Luxembourg
+Munich,Lappeenranta
+Madrid,Lisbon
+Murcia,Lelystad
+Milan,Lugano
+Maastricht,Ljubljana
+Moss,Muenster
+Milas,Lille
+Metz,Lyon
+Newcastle,Monte Carlo
+Nuremberg,Mahon
+Naples,Mannheim
+Constanta,Mariehamn
+Nice,Montpellier
+Norrkoping,Malaga
+Alderney,Malta
+Olbia,Ostrava
+Ohrid,Malmo
+Osijek,Ostend
+Plymouth,Norwich
+Palma Majorca,Marseille
+Pescara,Oslo
+Paphos,Oviedo
+Ponta Delgada,Newquay
+Porto,Paderborn
+Poprad,Palanga
+Paris,Plovdiv
+Podgorica,Nantes
+Pardubice,Pisa
+Prague,Palermo
+Reus,Rostock
+Rome,Pula
+Rimini,Rhodes
+Ronneby,Parnu
+Sofia,Rijeka
+Shoreham,Reykjavik
+Stuttgart,Swansea
+Santorini,Sarajevo
+Santiago de Compostela,Southampton
+Siauliai,Riga
+Sandefjord,Shannon
+Strasbourg,Saarbruecken
+Sion,Rotterdam
+Stockholm,Skopje
+Tirana,Poznan
+Tenerife,Sevilla
+Treviso,Salzburg
+Turin,Thessaloniki
+Tel-Aviv,Salamanca
+Tampere,Stavanger
+Tallinn,Split
+Umea,Toulouse
+Varna,Timisoara
+Volos,Tivat
+Valencia,Trieste
+Verona,Terceira Island
+Ventspils,Turku
+Vilnius,Tartu
+Iasi,Valladolid
+Vaxjo,Trabzon
+Wangerooge,Vienna
+Westerland,Trollhattan
+Wroclaw,Wilhelmshaven
+Zweibruecken,Weeze
+Zaragoza,Warsaw
+Zagreb,Visby
+Zurich,Venice
+Brest,Minsk
+Vitebsk,Chisinau
+Kiev,Kherson
+Chernivtsi,Hrodna
+Odesa,Gomel
+Lviv,Zaporizhia
+Kharkiv,Vinnytsia
+Ivano-Frankivsk,Zadar
+Saint Petersburg,Dnipro
+Sochi,Moscow
+Krasnodar,Novosibirsk
+Platov,Ekaterinburg
+Samara,Kaliningrad
+Irkutsk,Anapa
+Mineralnye Vody,Ufa
+Tyumen,Kazan
+Khabarovsk,Krasnoyarsk
+Chelyabinsk,Vladivostok
+Novy Urengoy,Surgut
+Volgograd,Perm
+Makhachkala,Yakutsk
+Gelendzik,Yuzhno-Sakhalinsk
+Petropavlovsk-Kamchatsky,Nizhniy Novgorod
+Tomsk,Murmansk
+Nizhnevartovsk,Naberezhnye Chelny
+Orenburg,Omsk
+Astrakhan,Arkhangelsk
+Norilsk,Syktyvkar
+Belgorod,Barnaul
+Salehard,Voronezh
+Stavropol,Izhevsk
+Magadan,Saratov
+Kemerovo,Khanty-Mansiysk
+Vladikavkaz,Chita
+Ulyanovsk,Grozny
+Penza,Novokuzinetsk
+Saransk,Abakan
+Rostov on Don,Nadym
+Cheboksary,Nojabrxsk
+Magas,Magnitogorsk
+Naryan-Mar,Nalchik
+Elista,Cherepovets
+Gorno-Altaysk,Blagoveschensk
+Neryungri,Bratsk
+Kursk,Talakan
+Petrozavodsk,Kirov
+Kaluga,Vorkuta
+Yaroslavl,Tambov
+Solovetsky,Anadyr
+Aldan,Ivanovo
+Mirny,Briansk
+Beloyarsky,Kurgan
+Ust-Kut,Kogalym
+Usinsk,Strzhewoi
+Nyagan,Okha
+Batagay,Orsk
+Berezovo,Kyzyl
+Srednekolymsk,Tiksi
+Ust-Maya,Velikij Ustyug
+Keperveyem,Pevek
+Deputatsky,Olyokminsk
+Ust-Nera,Kirensk
+Saskylakh,Bodaybo
+Olenyok,Turukhansk
+Cherskiy,Olyokminsk
+Igrim,Uraj
+Hatanga,Terney
+Dalnegorsk,Belaya Gora
+Tynda,Lensk
+Preobrazheniye,Kavalerovo
+Zhigansk,Igarka
+Verkhnevilyuysk,Nikolaevsk-na-Amure
+Dalnerechensk,Nogliki
+Komsomolsk Na Amure,Nyurba
+Plastun,Bugulma
+Kotlas,Iturup
+Yedinka,Lipetsk
+Joshkar-Ola,Chokurdah
+Ukhta,Mendeleyevo
+Suntar,Yerbogachen
+Pristina,Ust-Kuyga
+Thimphu,Shakhtyorsk
+Ulaanbaatar,Teply Klyuch
+Agartala,Podkamennaya Tunguska
+Aizawl ,Bogorodskoye
+Amritsar ,Amgu
+Bagdogra ,Zyryanka
+Belgaum ,Ahmedabad 
+Bhopal ,Agra 
+Bhubaneswar ,Vientiane
+Chandigarh ,Vilyuysk
+Coimbatore ,Bikaner 
+Dharamsala ,Dikson
+Dimapur ,Allahabad 
+Diu ,Dehradun 
+Gaya ,Svetlaya
+Gorakhpur ,Aurangabad 
+Guwahati ,Jorhat 
+Gwalior ,Dibrugarh 
+Hubli ,Bhuj 
+Jaisalmer ,Hyderabad  
+Jalgaon ,Chicalim
+Jamnagar ,Imphal 
+Jodhpur ,Jammu 
+Kadapa ,Indore 
+Kanpur ,Bhavnagar 
+Kochi  ,Kandla 
+Kolhapur ,Jabalpur 
+Mysore ,Kozhikode 
+Pantnagar ,Kazi Nazrul Islam 
+Pasighat ,Nagpur 
+Patna ,Ludhiana 
+Porbandar ,Lucknow 
+Puducherry ,Khajuraho 
+Pune ,Rajahmundry 
+Raipur ,Kulu 
+Salem  ,Nanded 
+Shirdi ,Leh 
+Silchar ,Port blair 
+Surat ,Shimla 
+Tezpur ,Mangalore 
+Tuticorin ,Nasik 
+Udaipur ,Shillong 
+Vidyanagar ,Rajkot 
+Visakhapatnam ,Ranchi 
+Koh Samui,Thiruvananthapuram 
+Udon Thani ,Srinagar 
+Surat Thani ,Tirupati 
+Nakhon Si Thammarat ,Vadodara 
+Phitsanulok ,Tiruchirapalli 
+Trang ,Chiang Mai 
+Roi Et ,Madurai 
+Nakhon Phanom ,Chiang Rai 
+Sakon Nakhon ,Vijayawada 
+Lampang ,Chumphon 
+Mae Sot ,Hat Yai 
+Ranong ,Varanasi 
+Loei ,Buri Ram 
+Sukhothai ,Phrae 
+Mae Hong Son ,Ubon Ratchathani 
+Hua Hin ,Narathiwat 
+Pai ,Khon Kaen 
