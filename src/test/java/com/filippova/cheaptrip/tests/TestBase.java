@@ -9,7 +9,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import java.io.IOException;
+import java.lang.invoke.MethodHandles;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ public class TestBase {
 
     WebDriver driver;
 
-    public Logger logger = LoggerFactory.getLogger(TestBase.class.getName());
+    public Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass().getPackage().getName() + ".log");
 
     @BeforeMethod
     public void startTest(Method m, Object[] objects){

@@ -3,7 +3,6 @@
 <suite name="Regression" verbose="1" >
     <test name="Regression" >
         <classes>
-            <class name="com.filippova.cheaptrip.tests.MainPageTests"/>
             <class name="com.filippova.cheaptrip.tests.SearchTripTests">
             <methods>
                 <exclude name="fillInTripFormFromCityCSVFile.*"/></methods>

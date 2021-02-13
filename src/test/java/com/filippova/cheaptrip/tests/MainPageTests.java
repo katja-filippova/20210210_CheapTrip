@@ -32,29 +32,9 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
-    public void fillInTripForm() throws InterruptedException {
-        mainPageHelper.fillInFromTypeForm("Berlin");
-        Thread.sleep(100);
-        mainPageHelper.fillInToTypeForm("Moscow");
-        Thread.sleep(100);
-        mainPageHelper.clickOnLetsGoButton();
-        WebElement tripContainer = driver.findElement(By.cssSelector("ion-row.md.hydrated"));
-        Assert.assertTrue(mainPageHelper.isElementPresent(tripContainer));
-    }
-
-    @Test
     public void changeCurrencyTest() {
         mainPageHelper.selectUSD();
         WebElement usdCurrency = driver.findElement(By.xpath("//*[contains(@class,\"sc-ion-popover-md-h sc-ion-popover-md-s select-popover md hydrated\")]/div[2]/div[2]/ion-select-popover/ion-list/ion-radio-group/ion-item[2]"));
         Assert.assertTrue(mainPageHelper.isElementPresent(usdCurrency));
-    }
-
-    @Test (dataProvider = "fillInTripFromTripsCSVFile", dataProviderClass = DataProviders.class)
-    public void fillInTripFormFromCityCSVFile(String from, String to) {
-        mainPageHelper.fillInFromTypeForm(from);;
-        mainPageHelper.fillInToTypeForm(to);
-        mainPageHelper.clickOnLetsGoButton();
-        WebElement tripContainer = driver.findElement(By.cssSelector("ion-row.md.hydrated"));
-        Assert.assertTrue(mainPageHelper.isElementPresent(tripContainer));
     }
 }
