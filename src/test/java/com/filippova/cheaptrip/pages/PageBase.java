@@ -1,17 +1,23 @@
 package com.filippova.cheaptrip.pages;
 
-import org.openqa.selenium.By;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
+
+import static com.google.common.io.Files.copy;
 
 public abstract class PageBase {
     protected WebDriver driver;
 
-    // Logger logger = Logger.getLogger(TestBase.class.getName());
+
     public PageBase(WebDriver driver) {
         this.driver = driver;
     }
@@ -80,5 +86,14 @@ public abstract class PageBase {
 
     public void tap(WebElement element) {
         element.click();
+    }
+
+    public String takeScreenshot() throws IOException {
+        File tmp = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File("screenshot" + System.currentTimeMillis() + ".png");
+
+        copy(tmp, screenshot);
+
+        return screenshot.getAbsolutePath();
     }
 }
