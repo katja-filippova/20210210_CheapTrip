@@ -1,4 +1,4 @@
-package com.filippova.cheaptrip.tests;
+package com.filippova.cheaptrip.util;
 
 import org.testng.annotations.DataProvider;
 

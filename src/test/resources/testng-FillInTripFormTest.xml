@@ -5,7 +5,7 @@
         <classes>
             <class name="com.filippova.cheaptrip.tests.SearchTripTests">
             <methods>
-                <exclude name="fillInTripFormFromCityCSVFile.*"/></methods>
+                <include name="fillInTripForm"/></methods>
             </class>
         </classes>
     </test>

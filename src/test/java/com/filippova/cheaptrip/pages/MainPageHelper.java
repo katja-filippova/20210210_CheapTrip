@@ -8,6 +8,8 @@ import java.util.List;
 
 public class MainPageHelper extends PageBase {
 
+    private static final String TRIP_PANEL_XPATH = "//*[@id=\"main-content\"]/app-places/ion-tabs/div/ion-router-outlet/app-offer/ion-content/ion-grid/ion-row[2]/ion-col/ion-item[1]/mat-accordion/mat-expansion-panel";
+
     public MainPageHelper(WebDriver driver) {
         super(driver);
     }
@@ -51,6 +53,14 @@ public class MainPageHelper extends PageBase {
     @FindBy(css = "ion-button.ion-color-primary")
     WebElement letsGoButton;
 
+    @FindBy(xpath = TRIP_PANEL_XPATH)
+    WebElement foldedTripPanel;
+
+    @FindBy(xpath = TRIP_PANEL_XPATH + "/div/div/app-details/ion-list/*/ion-label/p[3]/span[3]")
+    List<WebElement> tripSegments;
+
+    @FindBy(xpath = TRIP_PANEL_XPATH + "/mat-expansion-panel-header/span[1]/mat-panel-description/p/span[3]/ion-badge")
+    WebElement totalTripPrice;
 
     public boolean isSloganContainsText(String text) {
         return slogan.getText().contains(text);
@@ -89,5 +99,23 @@ public class MainPageHelper extends PageBase {
 
     public void clickOnLetsGoButton() {
         letsGoButton.click();
+    }
+
+    public boolean checkSumOfTrip() {
+        float sumOfSegments = 0f;
+        for (WebElement segmentPriceElement : tripSegments) {
+            sumOfSegments += getPriceValue(segmentPriceElement.getText());
+        }
+        float total = getPriceValue(totalTripPrice.getText());
+        return sumOfSegments == total;
+    }
+
+    private float getPriceValue(String priceAsString) {
+        return Float.parseFloat(priceAsString.substring(1));
+    }
+
+    public void unfoldTripPanel() {
+        waitUntilElementVisible(foldedTripPanel, 3);
+        foldedTripPanel.click();
     }
 }

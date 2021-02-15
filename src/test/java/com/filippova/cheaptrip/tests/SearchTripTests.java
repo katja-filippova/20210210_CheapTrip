@@ -1,6 +1,7 @@
 package com.filippova.cheaptrip.tests;
 
 import com.filippova.cheaptrip.pages.MainPageHelper;
+import com.filippova.cheaptrip.util.DataProviders;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -28,7 +29,7 @@ public class SearchTripTests extends TestBase {
         Assert.assertTrue(mainPageHelper.isElementPresent(tripContainer));
     }
 
-    @Test (dataProvider = "fillInTripFromTripsCSVFile", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "fillInTripFromTripsCSVFile", dataProviderClass = DataProviders.class)
     public void fillInTripFormFromTripsCSVFile(String from, String to) {
         mainPageHelper.fillInFromTypeForm(from);
         mainPageHelper.fillInToTypeForm(to);
@@ -37,12 +38,23 @@ public class SearchTripTests extends TestBase {
         Assert.assertTrue(mainPageHelper.isElementPresent(tripContainer));
     }
 
-    @Test (dataProvider = "usingDBCityCSVFile", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "usingDBCityCSVFile", dataProviderClass = DataProviders.class)
     public void fillInTripFormFromDBCityCSVFile(String from, String to) {
         mainPageHelper.fillInFromTypeForm(from);
         mainPageHelper.fillInToTypeForm(to);
         mainPageHelper.clickOnLetsGoButton();
         WebElement tripContainer = driver.findElement(By.cssSelector("ion-row.md.hydrated"));
         Assert.assertTrue(mainPageHelper.isElementPresent(tripContainer));
+    }
+
+    @Test
+    public void testIfSumOfTripIsCorrect() throws InterruptedException {
+        mainPageHelper.fillInFromTypeForm("Berlin");
+        Thread.sleep(100);
+        mainPageHelper.fillInToTypeForm("Moscow");
+        Thread.sleep(100);
+        mainPageHelper.clickOnLetsGoButton();
+        mainPageHelper.unfoldTripPanel();
+        Assert.assertTrue(mainPageHelper.checkSumOfTrip());
     }
 }
