@@ -81,7 +81,6 @@ public class MainPageHelper extends PageBase {
         inputTextToField(fromLine, textInput);
         waitUntilElementVisible(submitCityFrom, 5);
         submitCityFrom.click();
-
     }
 
     public void fillInToTypeForm(String textInput) {
@@ -110,12 +109,12 @@ public class MainPageHelper extends PageBase {
         return sumOfSegments == total;
     }
 
-    private float getPriceValue(String priceAsString) {
-        return Float.parseFloat(priceAsString.substring(1));
-    }
-
     public void unfoldTripPanel() {
         waitUntilElementVisible(foldedTripPanel, 3);
         foldedTripPanel.click();
+    }
+
+    private float getPriceValue(String priceAsString) {
+        return Float.parseFloat(priceAsString.substring(1));
     }
 }
